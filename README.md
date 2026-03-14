@@ -1,31 +1,16 @@
-# 🚗 Bam Autos — Car Sales Data Cleaning & Visualization
+# Bam Autos — Car Sales Data Cleaning & Visualization
 
 > An end-to-end data analytics project covering data cleaning, exploratory analysis, and interactive dashboard visualization of a car dealership sales dataset.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes **23,906 car sales transactions** from Bam Autos dealerships across multiple regions in the United States. The goal is to uncover insights on revenue trends, customer demographics, dealer performance, and vehicle preferences through structured data cleaning and compelling visualizations.
 
 ---
 
-## 📂 Repository Structure
-
-```
-bam-autos-analysis/
-│
-├── data/
-│   └── bam_autos_raw.csv          # Raw dataset before cleaning
-│
-├── Bam_Autos.xlsx                 # Full workbook (raw + cleaned + dashboard)
-│
-└── README.md                      # Project documentation
-```
-
----
-
-## 📊 Dataset Overview
+##  Dataset Overview
 
 | Column | Description |
 |---|---|
@@ -49,19 +34,19 @@ bam-autos-analysis/
 
 ---
 
-## 🧹 Data Cleaning Steps
+##  Data Cleaning Steps
 
 The following cleaning steps were applied to the raw dataset:
 
-- ✅ Converted `Date` column from Excel serial number format to proper date format
-- ✅ Standardized `Engine` column (removed encoding issues e.g. `DoubleÂ Overhead Camshaft` → `Double Overhead Camshaft`)
-- ✅ Handled missing and inconsistent values across columns
-- ✅ Added derived columns: `Revenue` (Price × Qty) and `Salary Group` (income segmentation)
-- ✅ Verified data types for numeric and categorical fields
+-  Converted `Date` column from Excel serial number format to proper date format
+-  Standardized `Engine` column (removed encoding issues e.g. `DoubleÂ Overhead Camshaft` → `Double Overhead Camshaft`)
+-  Handled missing and inconsistent values across columns
+-  Added derived columns: `Revenue` (Price × Qty) and `Salary Group` (income segmentation)
+-  Verified data types for numeric and categorical fields
 
 ---
 
-## 📈 Key Insights & Analysis
+##  Key Insights & Analysis
 
 - **Total Revenue:** $99,892,343
 - **Total Units Sold:** 3,728
@@ -74,7 +59,7 @@ The following cleaning steps were applied to the raw dataset:
 
 ---
 
-## 🖥️ Dashboards
+##  Dashboards
 
 The Excel workbook contains two interactive dashboards built in Excel:
 
@@ -83,7 +68,7 @@ The Excel workbook contains two interactive dashboards built in Excel:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -94,23 +79,4 @@ The Excel workbook contains two interactive dashboards built in Excel:
 
 ---
 
-## 👤 Author
 
-**Abdulfattah**
-Data Analyst | Accounting Graduate | Interior Decorator
-
-> *"Turning raw numbers into meaningful stories."*
-
----
-
-## 📬 Contact
-
-Feel free to connect or reach out for collaboration:
-
-- 🐙 GitHub: [@fattah-canvas](https://github.com/fattah-canvas)
-
----
-
-## 📝 License
-
-This project is for portfolio and educational purposes.
